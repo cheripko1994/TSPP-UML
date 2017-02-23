@@ -1,0 +1,1039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4a1929c7-0f76-4ebd-8409-6cbdce61ee28"
+  name="ViewModel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7c3d957d-45c1-406e-86bd-64557fbaed14"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWPP.ViewModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="1fe4a7bf-4dfa-41fb-9dd9-bc001f3a5f06">
+      <profileInstance
+        Id="e1ece43f-77bd-402b-b8a2-17fc8837c8e1"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c364bf11-b9df-4afb-8dd3-3da37b0a747b"
+        name="ShoppingCartRemoveViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0614cefa-728f-4f87-8722-658c62408338"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartRemoveViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="268ab204-3e83-4795-9abb-2f2735ffd9bc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1244a7e6-8450-4339-8a10-99c38eb1c62d">
+                <propertyInstance
+                  Id="d6389008-9dcc-45aa-8e8d-b078e09e4915"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f96c3d3a-0a40-4312-869e-186e732e2850">
+                <propertyInstance
+                  Id="ec653c2d-cb2d-48af-8c18-c2148c012810"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8b6e570-da46-4fcd-bef6-703ccd16d67b">
+                <propertyInstance
+                  Id="b6bd4882-7694-4528-8bd9-8ade72010ce5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76d42008-3c57-4801-9a13-86443cc6f6f5">
+                <propertyInstance
+                  Id="7263bb39-03ad-4a32-a250-c799b8f2c502"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="29fb4ef3-f8ea-46c5-9232-3f3d3687c7ca">
+                <propertyInstance
+                  Id="a42d5964-ca0e-4734-9a40-9f0b6707653b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="322cad19-59ae-4c05-935e-a861d1bbeee4"
+            isDerived="false"
+            sourceEndRoleName="ShoppingCartRemoveViewModel"
+            targetEndRoleName="CartTotal"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3b92e6bb-fbef-43dc-90be-fa71ed8cf5f9"
+              LastKnownName="Decimal"
+              LastKnownLocation="Package2_0253.uml" />
+            <description>Свойство CartTotal ссылается на тип Decimal.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c634720d-fc25-4910-8c56-99cbeb459fb5"
+                  name="ShoppingCartRemoveViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f2345280-86a1-47b8-a269-04f0595745b6"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="39b1b5ed-75b4-4bc4-a300-db7e33c827f3"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f860c6ec-305a-4e70-b11f-9c03166638be"
+                  name="CartTotal"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="48b85017-c925-4e73-a3cf-25e8bd0d4b56"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="19c4326b-7e05-4734-8c68-d3f4e774154b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="591545e6-f745-4509-b1ac-ba687199189b"
+            name="Message"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0923b4e1-47ea-4ad3-8561-c243c0a205d5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartRemoveViewModel Member%3DMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72c5c606-baa1-4e8d-80d0-51aab51f29e1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b184c75-d3ea-4cac-8ca3-5405b4b7a846">
+                    <propertyInstance
+                      Id="1e162f0e-a909-4304-8397-dee1e6b108ac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f297609-6040-4378-b02d-b5c41eb7bcad">
+                    <propertyInstance
+                      Id="4532ceef-050b-4667-a163-1de26a5f30b1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7fdc94c-cd85-40ba-91ac-b5b5930186b0">
+                    <propertyInstance
+                      Id="5424c5c8-4896-47bc-b8b1-23c5339fcf9e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33e4afba-4184-4b7f-975a-dad040146002">
+                    <propertyInstance
+                      Id="44c9e1ab-60bb-4037-9e3d-a93f577860df"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4527fb81-ec14-4ebf-912d-455f7964c086">
+                    <propertyInstance
+                      Id="3248cb41-7124-4f18-be49-d99069e0b82b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e553e966-ed61-4f88-aa37-7f4ad1742bcd">
+                    <propertyInstance
+                      Id="9f473fb0-48b8-4956-9c52-453fc1630cde"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf6d8038-54e0-4452-9b77-1558a396e073">
+                    <propertyInstance
+                      Id="47a9e022-8868-4ced-9213-18b9ea889012"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject2.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fa4c6d61-6faa-4d82-b231-10992bc05946"
+            name="CartTotal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1ddd51f1-d07f-40e0-a693-35984dd38c8f"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartRemoveViewModel Member%3DCartTotal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8aa8fb55-0272-44c5-84a8-5e153fec2c82"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3d797e1-c167-40a7-a443-03dd8a838ae5">
+                    <propertyInstance
+                      Id="71f78c7e-84f8-4129-85a7-041a87ee3999"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be2415dc-da4e-44b3-ab3b-6ded559d467c">
+                    <propertyInstance
+                      Id="6fdccd22-ac9f-4216-a7b3-ccf11b657c0c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5932af61-b642-4a74-9dc3-2883f40545e8">
+                    <propertyInstance
+                      Id="fc599368-7331-4791-a309-8c6f3cdfc6b8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b68a2fb1-6eb2-47c1-b5ca-5817f6fb732f">
+                    <propertyInstance
+                      Id="47485a7d-6b62-4c74-82dd-285044eb7762"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64b60e8b-9319-4aa5-8e81-9be7cea99149">
+                    <propertyInstance
+                      Id="2c9450a5-2709-4ae8-a983-ed671756b3f4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d256823a-e2fb-4fd1-84fd-0e93d493a6be">
+                    <propertyInstance
+                      Id="22cd6dbb-1e5c-433c-8040-8ff113fa44cc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d88ffc5-ed2b-4990-93bf-f9c9ebe80804">
+                    <propertyInstance
+                      Id="61903ae0-5662-44b3-8c6e-0ca31a567957"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3b92e6bb-fbef-43dc-90be-fa71ed8cf5f9"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package2_0253.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="25098c5b-eb18-4a32-a76f-f1122b48ffdd"
+            name="CartCount"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="14d287cf-14cb-4252-84de-e6359516c54f"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartRemoveViewModel Member%3DCartCount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="287e3a7c-137c-4e34-a726-5905e90c4ad5"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="070594ea-a029-4d3f-9465-11e70dba93ae">
+                    <propertyInstance
+                      Id="09f69c40-f731-406a-ac80-7f7a22c6475e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82635489-3d68-4446-abde-bceb88b41b9f">
+                    <propertyInstance
+                      Id="0710c072-0fa4-4627-b08c-16480f28c476"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be6e8770-ed55-4aa0-82fc-58b4ec1eb0c6">
+                    <propertyInstance
+                      Id="dd8e03b4-b62d-496c-9889-1488ff5b4172"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de7772fb-8e85-4c26-a90b-d805321a817b">
+                    <propertyInstance
+                      Id="04217f61-ea39-4421-9e54-cdc4bcd6d2af"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa7d44b3-3114-4232-b23c-14535236ac11">
+                    <propertyInstance
+                      Id="e95e2131-18dd-4c00-ae8b-ca07f4539ca8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db253ba3-da93-4171-870e-b02f8ee056da">
+                    <propertyInstance
+                      Id="3c302500-289c-44a5-b970-bafdd47e6cc4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="892f6a07-85b6-4f5a-a0f0-ca54f0c6b887">
+                    <propertyInstance
+                      Id="a4f36d1b-1bc3-42d6-a3e8-43b9cb327f87"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject2.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dfdf6d1c-e2a8-4658-a222-7f22b5192630"
+            name="ItemCount"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6fad5ace-5e38-42b2-b22c-b46b8dfc2c40"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartRemoveViewModel Member%3DItemCount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="66fcbaa9-250f-470f-9cb5-dcb1142f33ce"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1724a4ef-3a8b-454e-be79-870cde12753e">
+                    <propertyInstance
+                      Id="1e567738-a25e-4f9c-b441-a8db884f3258"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c520e47a-3a20-4b10-b6ed-39d38ac3deca">
+                    <propertyInstance
+                      Id="49988f22-e701-4f7b-9eb1-11c0fcfb4f92"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a9f57dd-6560-4f5d-a8f2-964b8c14ead4">
+                    <propertyInstance
+                      Id="e90bdb40-e053-4b3f-9e04-6b6aee8caba7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ed367a8-58f1-4952-a628-40e2a3a5cebf">
+                    <propertyInstance
+                      Id="76a277d6-a119-41a8-81a0-eb45a7ad2412"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf08acf5-9f4d-49b7-aaff-db25665dc738">
+                    <propertyInstance
+                      Id="6e661285-3267-4f10-ac09-accef5201a86"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b48a7303-d036-43fd-98c5-4b4faef03520">
+                    <propertyInstance
+                      Id="8b18b82a-32a0-466e-9a87-415c31889767"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c460f35-3b03-44a8-aeb7-a2cf2cd105e6">
+                    <propertyInstance
+                      Id="3166520e-ddae-4005-87d8-e893d7e2bb17"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject2.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d8854a0c-cefa-4537-adff-d14c9af37a53"
+            name="DeleteId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f8a44f22-ee60-4646-987c-91837f616752"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartRemoveViewModel Member%3DDeleteId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fce5a246-aef4-4cea-ad32-ba8ac507ec6f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd19089f-71ad-4a4e-b2d7-f86d134d1385">
+                    <propertyInstance
+                      Id="93a26881-424d-4b1d-a2db-405e6a6aa2af"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ef93a25-c129-4cfb-8a5d-170ccb74fdff">
+                    <propertyInstance
+                      Id="d4cddddd-b821-416b-b48d-9f8b27d47bfa"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ba394b2-48cd-4465-8bb3-5644b4dfc1d8">
+                    <propertyInstance
+                      Id="d9c82dbe-03e7-4565-8cd3-21fb2fd652cc"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41ad7e5d-f5a4-4686-9689-6e26684d86b1">
+                    <propertyInstance
+                      Id="1f823b4d-1bdd-4724-8cd4-6cfc11904953"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f1767d1-bcf7-4e4f-8ac7-75568518204e">
+                    <propertyInstance
+                      Id="250496a2-3c19-4566-a71f-fbad47b41691"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d7a95e6-b300-4fb3-8e2d-36ca729c3558">
+                    <propertyInstance
+                      Id="bb875117-dba4-4917-af04-8842310a9101"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51ac8285-1019-48a8-a4e0-26a6a25f4cae">
+                    <propertyInstance
+                      Id="315802f3-ce03-4531-8b7d-e87d232ff5fd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject2.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4446717a-5820-4f6b-8fb3-c310f96d8e34"
+            name="ShoppingCartRemoveViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5e613626-16f5-4ce9-a1dc-d6b2404a9c5c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartRemoveViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2479f8e5-78a9-4548-9d70-55cccf3d998d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dba7206-0219-4d0a-b0cc-be7f1b8157e9">
+                    <propertyInstance
+                      Id="89f31c56-f2f5-428a-9b91-77e77658d551"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a37a2547-d7a5-4563-a7e1-1e30927a93d1">
+                    <propertyInstance
+                      Id="cbb28b10-50d0-433e-9ae4-a1ca3cf9c49e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82adcb15-abf3-42ba-81c6-b795f8516cdb">
+                    <propertyInstance
+                      Id="6e8f469c-8968-480f-8735-235eeda68a46"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10f0dc3f-f85e-4746-b8c3-463788b3e410">
+                    <propertyInstance
+                      Id="a0d0ffbd-3c9b-4895-9484-856750ceb2da"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbecb8ac-7169-4725-9ed0-f1c1fe259f34">
+                    <propertyInstance
+                      Id="62de4a3c-6534-4446-9e6b-028e7ebbad93"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c8c1361-3ebd-4201-a41b-c220f1703784">
+                    <propertyInstance
+                      Id="3fd56e2e-531f-4933-b295-6040a1c5a381"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="85cc282d-5bb8-4c91-81f0-5f6a7ebbb47b"
+        name="ShoppingCartViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7842624c-105d-414c-bbc6-f108a9134ee0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cbf6730e-7f72-453b-b362-489e90b5976e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="98a0cb61-cfc5-4ac2-8201-87c244b7d231">
+                <propertyInstance
+                  Id="447e6c75-66da-43b3-9247-3631b0284d35"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c8b64fd-56d2-4e50-85c6-e0ee60c8bf8c">
+                <propertyInstance
+                  Id="29f0c61e-eb69-4280-ab9a-bd8c5724b42e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="93b8d078-e89d-4d05-a0f6-73ec509eadfa">
+                <propertyInstance
+                  Id="965ce868-c474-4957-b9d2-c2abfeef3e63"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5a6a2ae0-f681-40e5-ad48-18def0eb45bf">
+                <propertyInstance
+                  Id="3ab936dc-40ff-4ebb-b1dd-cc0375988c90"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac007c4c-1651-4fb3-ad9c-6a8023bdcf2a">
+                <propertyInstance
+                  Id="a5429b5b-3690-4437-9b4c-438802c57c4c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="4c511dd7-6e99-45e4-a80d-95b53af22f80"
+            isDerived="false"
+            sourceEndRoleName="ShoppingCartViewModel"
+            targetEndRoleName="CartItems"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3a36d04b-ce3e-4a82-b7f1-366ce81f500a"
+              LastKnownName="List&lt;Cart‎&gt;"
+              LastKnownLocation="Package16_0253.uml" />
+            <description>Свойство CartItems ссылается на тип List&lt;Cart‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f4e8520f-92bf-427f-a79c-26df509f6ec0"
+                  name="ShoppingCartViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="71d0730a-f407-475c-a863-696fc1814cf6"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1599bbc0-7fcc-4a7d-98f2-151bd1f795c3"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a9e7b0f3-e4ab-411e-b138-5b7ee094d923"
+                  name="CartItems"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8d26609d-d288-49b5-9305-ce440c6f573c"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="79566473-0458-4366-a312-6a55dccf5587"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="73106bbe-5fb2-4496-81eb-aac1a3f01219"
+            isDerived="false"
+            sourceEndRoleName="ShoppingCartViewModel"
+            targetEndRoleName="CartTotal"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3b92e6bb-fbef-43dc-90be-fa71ed8cf5f9"
+              LastKnownName="Decimal"
+              LastKnownLocation="Package2_0253.uml" />
+            <description>Свойство CartTotal ссылается на тип Decimal.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0abf759e-445e-4e10-8452-0b1f35ab207b"
+                  name="ShoppingCartViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e4829a27-6ccc-4d2e-b03e-d7149af6158c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b75e6613-dff6-4c14-b965-1964c4d5979a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ae8ef36d-eab0-438a-b704-52d73e461df4"
+                  name="CartTotal"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5aa8b4cc-a55a-447c-b01f-49aabc5ef9d7"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7939c544-9228-480e-8978-2cf778ff1935"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="150e1da6-be3d-4c2c-ad57-90eb89c3945b"
+            name="CartItems"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e6802ee1-98ca-478f-b2e4-f790ef15bb6c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartViewModel Member%3DCartItems"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="69490af9-8c21-4674-b69e-783ea91fb120"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc72f1bd-0fa9-4d30-bc6a-33f43c736d50">
+                    <propertyInstance
+                      Id="faebf53d-2c4f-44b1-ad9f-4e988b922c99"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2491272-6448-4f63-b38b-10feeed31254">
+                    <propertyInstance
+                      Id="0447044a-b7c4-4171-b084-e850d0aebf26"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa309643-3ead-4396-ad0b-7dba1ce48931">
+                    <propertyInstance
+                      Id="50bac87e-6781-41ad-a1aa-b2dae83c9821"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb4076e8-7d51-4e1b-80ec-88375f23bed8">
+                    <propertyInstance
+                      Id="cf403958-5d71-4d6f-8781-be253ca5887b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91c7f054-0d98-478f-982b-063c21c0fcb4">
+                    <propertyInstance
+                      Id="a4f39740-d62c-4e3d-9ef6-5f225908ceb4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e50b0463-2c2d-407a-85a4-b4fa57590e6a">
+                    <propertyInstance
+                      Id="4d472fb8-1f2d-4c48-a761-4678244afe46"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a88c6077-507f-4993-94bc-6f0a80fe8214">
+                    <propertyInstance
+                      Id="95c68b08-51da-4ab3-93c7-fecc1dbf0b14"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3a36d04b-ce3e-4a82-b7f1-366ce81f500a"
+                LastKnownName="List&lt;Cart‎&gt;"
+                LastKnownLocation="Package16_0253.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e3499a1b-a7ea-4fd7-9a4d-e78da775844a"
+            name="CartTotal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8519ade5-ccd4-4dad-9eb6-711d00fd5ff5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartViewModel Member%3DCartTotal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="85554ee4-2ab8-4741-8d09-5fd222ba0f35"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e817283b-5401-41b7-ae52-732e0223d77a">
+                    <propertyInstance
+                      Id="0f5d89cf-801d-467e-9732-22f328d82a0a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fe3deac-3190-4095-8ee1-805f00011caf">
+                    <propertyInstance
+                      Id="d8a0e592-7ca4-4425-968c-53c06e0a6158"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8051d51-40b2-41fc-8221-f71b2f1f4f99">
+                    <propertyInstance
+                      Id="e3957501-fcf2-47d4-9a30-e9c4e0af8bf8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9cb82f1-1747-47a5-ae90-586279319d2f">
+                    <propertyInstance
+                      Id="0bdad706-76d1-4531-9f20-d49b926e89d9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89ef9f0a-027b-48c4-8ef1-21e8921e05fb">
+                    <propertyInstance
+                      Id="30a3767a-260f-4986-8108-37011cc2288c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a1b69d2-acbb-46aa-b05b-fc85fe15a516">
+                    <propertyInstance
+                      Id="eba647aa-792e-4acc-a27a-27aafdaa5781"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6ad3213-2902-4f56-be55-b8dba616342e">
+                    <propertyInstance
+                      Id="a475590e-5250-4fbf-a023-9081a14556dd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3b92e6bb-fbef-43dc-90be-fa71ed8cf5f9"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package2_0253.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b0eff37c-82c3-4f89-b927-3e45724be9ef"
+            name="ShoppingCartViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c1c24b43-f69f-4414-a562-279f83a72629"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.ViewModel Type%3DShoppingCartViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9d600ac3-bf33-4587-af0f-916943751be8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b866d91b-ff3b-48c8-8350-fffc00d19791">
+                    <propertyInstance
+                      Id="0404a407-1821-4ddc-93d7-4d7b62524310"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb7f609f-4e60-4804-8717-e7f9ed044a4c">
+                    <propertyInstance
+                      Id="78e20729-8108-479e-b3a3-a991d56366bb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5728bf6d-8d65-4f69-a453-bbdb03f420b6">
+                    <propertyInstance
+                      Id="cab11818-7272-4c95-8d3d-e01e09ccd963"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e0c60a0-4909-4a1b-9bd3-b1bdd8dfd705">
+                    <propertyInstance
+                      Id="80636e9c-1fe2-41d0-b4b7-4fb5238d19c0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c3683ec-8d46-486f-af68-de3e7c127e4c">
+                    <propertyInstance
+                      Id="627d0455-0992-4920-ac20-6a4dd7a2e9ce"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4e89bd9-a44d-4bba-ba5b-b2718d69a8ac">
+                    <propertyInstance
+                      Id="ed1a98a0-77cf-4502-b2af-6bfa71f1b1ea"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

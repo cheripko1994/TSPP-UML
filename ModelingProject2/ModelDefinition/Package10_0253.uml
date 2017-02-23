@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6da25353-afd1-437c-9220-9d28f04bf07b"
+  name="Owin"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c0d7f200-82aa-4baa-8ce2-4aae86e6d24e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="476baa2e-0735-4e77-8884-eb623c2d240b">
+      <profileInstance
+        Id="88fc2de7-2561-4cae-b9fa-6b8d8b9622d0"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="3d8f0ca4-7236-48eb-bbd8-888f818b7cf6"
+        name="IOwinContext"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="73613bc8-e4da-40ae-98a1-260d3c3b6b5a"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2Fpackages%2FMicrosoft.Owin.2.1.0%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="dc27364f-6702-4be8-acdc-ebbb2422e8ad"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cca7263e-6b28-4bce-b735-bb8d66f283ec">
+                <propertyInstance
+                  Id="1e9978d7-1966-4941-b088-73c8519ea33a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="733786bd-56eb-4d38-8d8d-23e8770c5654">
+                <propertyInstance
+                  Id="638bd152-d522-44d9-8cb2-0d933036201e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cbc4ee8a-66c4-4fce-8de7-0e909d708daa">
+                <propertyInstance
+                  Id="9d18b518-ed61-45c2-b99a-c1e4f33f9552"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4742363c-5409-43ac-932b-fce22be3617a">
+                <propertyInstance
+                  Id="308f6ccf-4702-4d68-bbd8-d183815e3a10"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9e4e32f8-ef28-435b-849e-c99766d1765e"
+        LastKnownName="Security"
+        LastKnownLocation="Package21_0253.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

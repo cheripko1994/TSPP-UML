@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="59019d49-f8ee-462d-929e-b52218106218"
+  name="Extensions"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="a02f6b93-adc9-488f-8549-cccfd2e218ef"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWPP.Extensions"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e95a874a-46b7-4fd0-95fd-1bd4d5df3749"
+        name="HtmlExtensions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a3f3bff6-0948-4d8d-aad4-03a4e373d48f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="157f6204-e259-448c-84c1-8ee5e877dbca"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00f7251a-4ed2-42ad-9e82-d7003435b586">
+                <propertyInstance
+                  Id="f7b5aa5f-1304-4a8d-bd02-dddb7172fac7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7c8bd95-5059-4d11-a18c-2fffd85e88f9">
+                <propertyInstance
+                  Id="196106f0-9939-4dfa-bde4-f9d9ce10a928"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41cd54ae-4b59-44b2-9e82-baea994e01ea">
+                <propertyInstance
+                  Id="dc38115f-6921-4fef-a4ca-f42085a177f9"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b15f3428-d404-40e3-bb2a-c187bbff935f">
+                <propertyInstance
+                  Id="6b3440a8-3166-45c1-8b87-8f4452ae66b7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4ecae6f-74b4-484f-aad5-9789664e1e53">
+                <propertyInstance
+                  Id="120f3cb8-e332-49bc-a235-647a905e89a8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d9fb5f25-87b2-43cb-b336-81517e08cc0c"
+            name="File"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3d33d5cb-eb4d-4882-8223-32d43635c70f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DFile OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2Fpackages%2FMicrosoft.AspNet.Mvc.5.1.2%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DHtmlHelper)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="68d862e4-9405-41a1-a0b4-f1ed287a4e33"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f1606fc-0dc0-48d3-b4c4-7191139ab5d2">
+                    <propertyInstance
+                      Id="8f39cf43-8041-4d10-abd4-358198cbbb60"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69c90c75-0ca6-4be2-b09c-b4a9d950f38d">
+                    <propertyInstance
+                      Id="238bc66f-557d-49e6-99fb-14f4e5a60979"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8101a2c9-a486-40d6-a48b-bb4e8a8294d7">
+                    <propertyInstance
+                      Id="0ae7f2ff-0c13-45ba-b84d-1742277f543c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97d1e552-8813-4dc5-b6a2-34f951825401">
+                    <propertyInstance
+                      Id="9421c1bf-2a7e-4397-8001-b0bb15b27b60"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15528e6b-ec30-4be2-896a-76ff9ec8a569">
+                    <propertyInstance
+                      Id="37a63db3-e0fd-4699-88af-33bd56e609c9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4109ccd-0d0b-431e-b8c1-eab329f3d9e5">
+                    <propertyInstance
+                      Id="4e45456c-4c03-469a-92fe-b8d26813fdeb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="69a520c2-8a02-4a99-a6e7-96a01060e0ae"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e61e5781-943d-4f1b-9103-ddfa5de49d76"
+                      LastKnownName="MvcHtmlString"
+                      LastKnownLocation="Package18_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b8c7dd3d-db80-4b92-963c-177d5190c78a"
+                  name="html"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f7703c7a-1b74-462e-bf1b-fcf858f6b4f3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DFile OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2Fpackages%2FMicrosoft.AspNet.Mvc.5.1.2%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DHtmlHelper)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dhtml"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="8c61ae0c-571e-4251-83d4-aa73f4070256"
+                      LastKnownName="HtmlHelper"
+                      LastKnownLocation="Package18_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ade2088f-973e-4991-b019-7bad339bcf29"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4fc117c8-6daf-4de2-ac9f-38d1aade1431"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DFile OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2Fpackages%2FMicrosoft.AspNet.Mvc.5.1.2%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DHtmlHelper)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e125b883-e0fa-4338-bad6-5e8e9e4c92bf"
+            name="TryFindMemberExpression"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d00d71ca-f2bc-48b2-a7a8-c035c3c6e06e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DTryFindMemberExpression OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DMemberExpression ParamKind%3DRef)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="60cbae1c-b56d-4afc-a370-9cafcc944fd9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5701b91c-4ade-4fae-ae84-67cd7407ab20">
+                    <propertyInstance
+                      Id="6d13eb59-84a5-4c58-8d5b-7daca1b80fe4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60aa8408-32d2-4000-80fc-ded664170b53">
+                    <propertyInstance
+                      Id="f296b2e2-e9c6-44c5-8de6-dfd5ee74e32a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80c02266-5fbe-4cc5-9693-f6ad3ef94578">
+                    <propertyInstance
+                      Id="802698ff-68ba-49d2-a5d4-941b02d48223"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="062331c4-5bc7-402d-bdb6-9f5ae1e3708c">
+                    <propertyInstance
+                      Id="8c146933-ae58-4a73-bcc5-138d3a5668bb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3da76b9f-7577-452c-b50c-f870d12a8b3f">
+                    <propertyInstance
+                      Id="4bd6fea5-e86e-4850-9069-a7fecbdaec9f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b5b89cb-f63a-4281-b9ad-c7519a5f63ff">
+                    <propertyInstance
+                      Id="a3f044ee-72dd-4cfe-892e-e5bd72a9221a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9232c858-4589-456a-b6ae-77b5624800ae"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8fcee7d0-8703-4e7f-aa57-23ecf0701497"
+                  name="exp"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3add06df-4fec-4517-a7a4-a25a2f2aa45b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DTryFindMemberExpression OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DMemberExpression ParamKind%3DRef)]) ParameterIdentifier%3Dexp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="30a35724-1c44-4713-a0d2-8779a7b12dc7"
+                      LastKnownName="Expression"
+                      LastKnownLocation="Package36_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e342591f-9459-4153-b36c-7b1386580e87"
+                  name="memberExp"
+                  direction="Out">
+                  <referencesInternal>
+                    <reference
+                      Id="af15f053-259b-45c9-9861-f9efb8a068dc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DTryFindMemberExpression OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DMemberExpression ParamKind%3DRef)]) ParameterIdentifier%3DmemberExp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b7dd56c8-411f-4424-bd98-2381392bccb5"
+                      LastKnownName="MemberExpression"
+                      LastKnownLocation="Package36_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7e203d3e-9281-4d6d-96e4-f7012527759d"
+            name="IsConversion"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f43f152e-6d24-402d-a8f1-05d7510714c3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DIsConversion OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="73f9036f-1a38-4df3-9135-a15911fc9a35"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32bed96e-c227-416f-9dd8-0c6e0379eb46">
+                    <propertyInstance
+                      Id="1fb60295-58a8-4ccd-bc86-3a62957e52ac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1970968-e99f-4a2a-9fe8-f0fa9f3026d5">
+                    <propertyInstance
+                      Id="356c3c37-df9f-49f4-867b-f10147418246"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a7730f5-9bfb-4796-b6d1-d22c9ab5b3eb">
+                    <propertyInstance
+                      Id="cbfc3e34-0ea8-4ab5-babb-bcdc5dd3e873"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe1f6ea2-e0dc-43e4-8224-bb2b68b5eade">
+                    <propertyInstance
+                      Id="f8105bd3-6885-4fdb-be4c-aff46fe30f65"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a603bdc-0a08-4714-bbbd-a459d8b94f9a">
+                    <propertyInstance
+                      Id="ecb432d3-7b7c-47b8-904c-3e705f8e66b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71fea86a-a1a0-4aad-8d3a-5f944ae1632c">
+                    <propertyInstance
+                      Id="180c4b4a-73ef-40cb-9e01-69d67df4e687"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2006c30b-aed4-4b0b-a279-a88ca2520cc9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8fe50dff-6b23-4288-854c-8ff382644302"
+                  name="exp"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="921efc6f-ee6e-4803-b021-a3a0864f49f6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DIsConversion OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)]) ParameterIdentifier%3Dexp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="30a35724-1c44-4713-a0d2-8779a7b12dc7"
+                      LastKnownName="Expression"
+                      LastKnownLocation="Package36_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8bb1491c-1dfa-4fc3-836d-d2a32cde38fe"
+            name="FileFor‎&lt;TModel‎, TProperty‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8080c972-00d6-4960-a9e0-4f6df48b3eff"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DFileFor GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2Fpackages%2FMicrosoft.AspNet.Mvc.5.1.2%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3D(Name%3DHtmlHelper GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9d3c446c-ce52-4315-9ade-724af09a896a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5d2f3d7-858e-4416-b652-1c79d2d9afa7">
+                    <propertyInstance
+                      Id="571d2d91-d348-4bc8-8745-bfbe1dcb504e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ff9ed34-62ea-40cc-8638-f26fa6d71e25">
+                    <propertyInstance
+                      Id="9efb68b6-41ba-46db-91f3-173ad6a73f10"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="109185bd-491b-4141-85f2-f2e9321aeb2d">
+                    <propertyInstance
+                      Id="10bbcb74-b168-4c12-bb91-70d61334a03d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c2dd448-d745-46de-969b-66d6a928b6da">
+                    <propertyInstance
+                      Id="ea1a4e4d-97fc-4aea-9e1b-72b9f1b73759"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b36f88b0-525f-42a8-9312-01893f244ff8">
+                    <propertyInstance
+                      Id="49ccf197-53cd-477a-a8aa-3b46786f366d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57ce5b79-eb19-4451-9f2d-682bad385f83">
+                    <propertyInstance
+                      Id="dafcf417-204d-418e-ac4f-a3ef43ea1746"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f8b527f2-42b0-45fe-8791-82c504476fca"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e61e5781-943d-4f1b-9103-ddfa5de49d76"
+                      LastKnownName="MvcHtmlString"
+                      LastKnownLocation="Package18_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0637c993-62a6-49c8-92f8-981390007534"
+                  name="html"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e4537e70-fce7-46fd-a798-14b1b9704304"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DFileFor GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2Fpackages%2FMicrosoft.AspNet.Mvc.5.1.2%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3D(Name%3DHtmlHelper GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))]) ParameterIdentifier%3Dhtml"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="015501d0-3fe9-40c8-b21b-be2774c331f5"
+                      LastKnownName="HtmlHelper&lt;TModel‎&gt;"
+                      LastKnownLocation="Package18_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4218cd6c-8fe6-4867-9948-c377682e186e"
+                  name="expression"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cc1aa0d9-7724-4c03-82da-167eba4bf637"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DFileFor GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2Fpackages%2FMicrosoft.AspNet.Mvc.5.1.2%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3D(Name%3DHtmlHelper GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))]) ParameterIdentifier%3Dexpression"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ea334661-66b6-4712-9f9a-9b84552684d0"
+                      LastKnownName="Expression&lt;Func‎&lt;TModel‎, TProperty‎&gt;‎&gt;"
+                      LastKnownLocation="Package36_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fc871847-97d5-4a90-9a36-d723272d7bcb"
+            name="GetFullPropertyName‎&lt;T‎, TProperty‎&gt;"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3ef22ae4-1106-444b-a133-482c953fff9f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DGetFullPropertyName GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2c0d0525-7561-402b-bc96-0dcabc3d7f38"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="526cc59e-ac38-4ce4-877d-333321f461f4">
+                    <propertyInstance
+                      Id="b3d2a748-1e37-49f6-8c8a-343fa3acfed6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0efa08d-e373-4508-9937-8be5a03bed6e">
+                    <propertyInstance
+                      Id="7e5cb8eb-1625-4075-8d5c-b8ac1073b458"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a9659d6-c8ce-4c76-9ece-9b1d59e6e4d3">
+                    <propertyInstance
+                      Id="72d3375a-23f2-4bf6-8657-2b7c29c41dbd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0159a98-9c51-48ef-a88b-c85d394cfd33">
+                    <propertyInstance
+                      Id="2cb1db5b-e5de-429c-b27e-caccea4e19ca"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80ba153b-ee6e-438d-a7ef-881113e648ce">
+                    <propertyInstance
+                      Id="0d102bd2-f88e-4dc8-b6f9-8d08a4a451aa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b4f03dc-4b58-4263-862d-9a39bc08679a">
+                    <propertyInstance
+                      Id="70e6117b-e63a-48f0-9d15-587534e9ef40"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="24753e68-e164-4498-b70b-a08bd39cabc5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="99315a1c-027e-47e7-bf2f-ed00ea5cbb8c"
+                  name="exp"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f6549f9b-8e7d-4e12-a34d-c95951e4cd33"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DGetFullPropertyName GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))]) ParameterIdentifier%3Dexp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b77e541b-5659-44e1-bde7-3dccd608feac"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, TProperty‎&gt;‎&gt;"
+                      LastKnownLocation="Package36_0253.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="5869d2d7-44a4-4244-9839-92880672af13"
+        name="TProperty">
+        <referencesInternal>
+          <reference
+            Id="a930ff48-0288-42c9-8bb2-2eb7b1a1ed67"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DGetFullPropertyName GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))]) ParameterIdentifier%3D1"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="f51e31ac-bcd3-4a09-82f0-df6ff0788a20"
+        name="TModel">
+        <referencesInternal>
+          <reference
+            Id="cf5545fa-0cdb-48c8-8777-0c55a977dab6"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DFileFor GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2Fpackages%2FMicrosoft.AspNet.Mvc.5.1.2%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3D(Name%3DHtmlHelper GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="5abd41ba-017a-4af2-a283-f9f632623709"
+        name="T">
+        <referencesInternal>
+          <reference
+            Id="038d6341-95da-40f1-93ee-1e0c89044595"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2FКУРСОВАЯ%2FDiscTube%2FWPP%2Fbin%2FWPP.dll Namespace%3DWPP.Extensions Type%3DHtmlExtensions Member%3D(Name%3DGetFullPropertyName GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]))]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
